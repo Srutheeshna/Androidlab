@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android
+"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<ImageButton
+android:id="@+id/imageButton4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:srcCompat="@drawable/id"
+tools:layout_editor_absoluteX="0dp"
+tools:layout_editor_absoluteY="1dp" />
+<EditText
+android:id="@+id/editTextTextEmailAddress5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="132dp"
+android:ems="10"
+android:hint="username"
+android:inputType="text"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+
+49
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/imageButton4"
+app:layout_constraintVertical_bias="0.084" />
+
+<EditText
+android:id="@+id/editTextTextPassword"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="password"
+android:inputType="textPassword"
+app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress5"
+app:layout_constraintVertical_bias="0.215" />
+<Button
+android:id="@+id/button"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="login"
+app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+app:layout_constraintVertical_bias="0.316" />
+<TextView
+android:id="@+id/textView"
+android:layout_width="281dp"
+android:layout_height="56dp"
+
+50
+
+android:text="FOOD INDIA"
+android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress5"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/imageButton4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
