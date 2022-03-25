@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+42
+<androidx.appcompat.widget.LinearLayoutCompat
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".settings">
+<LinearLayout
+android:layout_width="409dp"
+android:layout_height="729dp"
+android:orientation="vertical"
+tools:layout_editor_absoluteX="1dp"
+tools:layout_editor_absoluteY="1dp">
+<ImageButton
+android:id="@+id/button"
+android:layout_width="45dp"
+android:layout_height="45dp"
+android:scaleType="centerInside"
+app:srcCompat="@android:drawable/ic_media_rew" />
+<ImageView
+android:id="@+id/imageView2"
+android:layout_width="450dp"
+android:layout_height="1000dp"
+app:srcCompat="@drawable/settings" />
+</LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
